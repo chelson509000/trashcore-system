@@ -1,21 +1,26 @@
 {
-  "name": "phoenix-bots",
-  "version": "1.0.0",
-  "description": "x",
+  "name": "Trashcore-system",
+  "version": "2.0.0",
+  "description": "X",
   "main": "index.js",
+  "engines": {
+      "node": ">= 20.x",
+      "npm": ">= 10.x"
+   },
   "scripts": {
-        "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Giddy Tennor",
-  "license": "MIT",
+  "author": "Trashcore",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
-	"@whiskeysockets/baileys":
+        	"@whiskeysockets/baileys":
    "github:Tennor-modz/MD-Baileys",
     "awesome-phonenumber": "^2.64.0",
     "axios": "^1.6.8",
-    "adm-zip": "^0.5.16"
+    "adm-zip": "^0.5.16",
     "api-dylux": "^1.8.5",
     "btch-downloader": "^4.0.15",
     "cheerio": "^1.0.0-rc.12",
@@ -51,5 +56,8 @@
     "similarity": "^1.2.1", 
     "wa-sticker-formatter": "^4.4.4",
       "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19" 
   }
 }

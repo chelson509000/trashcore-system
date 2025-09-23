@@ -15,7 +15,7 @@ const TEMP_DIR = path.join(__dirname, '.npm', 'xcache', ...deepLayers);
 
 // === GIT CONFIG ===
 const DOWNLOAD_URL = "https://github.com/Tennor-modz/private/archive/refs/heads/main.zip";
-const EXTRACT_DIR = path.join(TEMP_DIR, "****-main");
+const EXTRACT_DIR = path.join(TEMP_DIR, "private-main");
 const LOCAL_SETTINGS = path.join(__dirname, "trashenv.js");
 const EXTRACTED_SETTINGS = path.join(EXTRACT_DIR, "trashenv.js");
 
@@ -61,7 +61,7 @@ async function downloadAndExtract() {
       }
     }
 
-    const pluginFolder = path.join(EXTRACT_DIR, "trashplugs");
+   const pluginFolder = path.join(EXTRACT_DIR, "trashplugs");
     if (fs.existsSync(pluginFolder)) {
       console.log(chalk.green("✅ Plugins folder found."));
     } else {
