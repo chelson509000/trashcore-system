@@ -2,9 +2,8 @@
   "name": "phoenix-bots",
   "version": "1.0.0",
   "description": "x",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-   "code": "node main.js",
         "start": "node index.js"
   },
   "author": "Giddy Tennor",
@@ -16,6 +15,7 @@
    "github:Tennor-modz/MD-Baileys",
     "awesome-phonenumber": "^2.64.0",
     "axios": "^1.6.8",
+    "adm-zip": "^0.5.16"
     "api-dylux": "^1.8.5",
     "btch-downloader": "^4.0.15",
     "cheerio": "^1.0.0-rc.12",
