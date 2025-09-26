@@ -23,7 +23,7 @@
 
 ---
 
-<a href='https://deploy-five-coral.vercel.app/' target="_blank">
+<a href='https://openai-two-pi.vercel.app/' target="_blank">
   <img alt='Deploy' src='https://img.shields.io/badge/deploy%20bot%20now-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
