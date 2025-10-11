@@ -23,7 +23,7 @@
 
 ---
 
-<a href='https://trashcore.zone.id' target="_blank">
+<a href='https://www.trashcorehost.zone.id/' target="_blank">
   <img alt='Deploy' src='https://img.shields.io/badge/deploy%20bot%20now-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
@@ -33,16 +33,5 @@
 
 
 
-> This base $ bot was created by Trashcore devs
 
 
-
-
-
-> CURRENT VERSION: 1.8.0
->
-> 
-> RELEASE ON: 20th July 2025
->
-> 
-> LAST UPDATED: 24th September 2025
