@@ -2,6 +2,7 @@ services:
   - type: web
     name: trashcore-web
     env: node
+    plan: free
     buildCommand: npm install
     startCommand: node keepalive.js
     envVars:
@@ -22,15 +23,30 @@ services:
       - key: AUTHOR
         value: "Trashcore"
       - key: SESSION_ID
-        sync: false    # You’ll fill this manually in Render dashboard
-      - key: APP_NAME
-        value: trashcore-bot
+        sync: false
+
   - type: worker
     name: trashcore-bot
     env: node
+    plan: free
     buildCommand: npm install
     startCommand: node index.js
     envVars:
-      - fromService:
-          name: trashcore-web
-          type: web
+      - key: OWNER_NAME
+        value: Trashcore
+      - key: BOT_PREFIX
+        value: "."
+      - key: ANTIDELETE
+        value: "true"
+      - key: AUTO_TYPE
+        value: "true"
+      - key: AUTO_RECORD
+        value: "false"
+      - key: AUTO_STATUS
+        value: "true"
+      - key: PACK_NAME
+        value: "Trashcore pack"
+      - key: AUTHOR
+        value: "Trashcore"
+      - key: SESSION_ID
+        sync: false
